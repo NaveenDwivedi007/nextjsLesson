@@ -1,0 +1,6 @@
+/* using module key word in style file next js treat this as a module ands where we import it it will take a 
+file name and append into the class name where we import it to create the unique class name at the build time */
+.container{
+    background-color: red;
+    width: 100%;
+}
