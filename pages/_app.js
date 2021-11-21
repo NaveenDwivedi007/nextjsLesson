@@ -8,6 +8,7 @@ import theme from '../theme'
 function MyApp({ Component, pageProps }) {
   return (
       <ThemeProvider theme ={theme}>
+        <h1>Hello</h1>
         <Component {...pageProps} />
       </ThemeProvider>
     )

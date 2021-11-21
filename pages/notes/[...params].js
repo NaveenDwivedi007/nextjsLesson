@@ -7,12 +7,13 @@ import React from 'react'
 
 // params is an array of [1,2,3,4]
 export default function MultiParams() {
-    const Router = useRouter()
+    const router = useRouter()
 
-    const {params} = Router.query
+    const {params} = router.query
+    console.log(params);
     return (
         <div>
-            Test {params.join("-")}
+            Test {params}
         </div>
     )
 }
